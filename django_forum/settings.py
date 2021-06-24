@@ -76,8 +76,15 @@ WSGI_APPLICATION = 'django_forum.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dd9dbb35o98f5e',
+        'USER': 'vckfjkfmecffmp',
+        'HOST': 'ec2-54-158-232-223.compute-1.amazonaws.com',
+        'PORT': 5432,
+        'PASSWORD': 'f92ae951a898a1581aacc52b73eda6e32d99ac67e7085b30f94fae53b57a1fca'
+
     }
 }
 
