@@ -62,7 +62,7 @@ Posts
   top: 40px;
   right: 15px;
   border: 1px solid #16e0bd;
-  background-color: #ccc;
+  background-color: #6fb6ff;
   padding: 10px 15px;
   font-size: 13px;
   border-radius: 3px;
@@ -96,7 +96,7 @@ Posts
 }
 
 body {
-  background-color: #6fb6ff;
+  background-color: #ccc;
   /*background-color: #16e0bd;*/
 }
 
